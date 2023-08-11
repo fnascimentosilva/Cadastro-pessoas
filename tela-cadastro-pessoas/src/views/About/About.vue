@@ -1,12 +1,10 @@
 <template>
-<router-view></router-view>
-
+  <p>oi tudo bem</p>
 </template>
 
 <script >
 
-
-
 </script>
 <style scoped>
+
 </style>
