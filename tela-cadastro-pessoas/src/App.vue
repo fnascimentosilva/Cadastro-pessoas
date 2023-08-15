@@ -4,7 +4,7 @@
 
 <router-view></router-view>
 
-Rodapé
+
 
 </template>
 

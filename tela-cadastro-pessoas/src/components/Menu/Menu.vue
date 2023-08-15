@@ -1,29 +1,43 @@
 <template>
-    <nav>
-        <ul class="menu">
-    <router-link to="/">
-    <li class="item-menu">
-      <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/home.png" alt="home" />
-      <h2>Home</h2>
-    </li>
-    </router-link>
+  <nav>
+    <ul class="menu">
+      <router-link to="/" class="item-menu">
+        <li >
+          <img
+            width="50"
+            height="50"
+            src="https://img.icons8.com/ios-filled/50/home.png"
+            alt="home"
+          />
+          <h2>Home</h2>
+        </li>
+      </router-link >
 
-    <router-link to="/talentos/novo">
-    <li class="item-menu">
-      <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/home.png" alt="home" />
-      <h2>Cadastro</h2>
-    </li>
-    </router-link>
+      <router-link to="/talentos/novo" class="item-menu">
+        <li >
+          <img
+            width="50"
+            height="50"
+            src="https://img.icons8.com/ios-filled/50/home.png"
+            alt="home"
+          />
+          <h2>Cadastro</h2>
+        </li>
+      </router-link>
 
-    <router-link to="/sobre">
-    <li class="item-menu">
-      <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/home.png" alt="home" />
-      <h2>Sobre</h2>
-    </li>
-    </router-link>
-  </ul>
-  <h1 class="title">Banco de Talentos</h1>
-    </nav>
+      <router-link to="/sobre" class="item-menu">
+        <li >
+          <img
+            width="50"
+            height="50"
+            src="https://img.icons8.com/ios-filled/50/home.png"
+            alt="home"
+          />
+          <h2>Sobre</h2>
+        </li>
+      </router-link>
+    </ul>
+  </nav>
 </template>
 
 <style scoped>
@@ -47,7 +61,7 @@
   width: 33%;
 }
 
-.item-menu li{
+.item-menu li {
   display: flex;
   justify-content: space-between;
   align-items: center;
