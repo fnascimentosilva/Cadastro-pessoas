@@ -1,4 +1,4 @@
 <template>
-  <p></p>
+  <p>Cadastro Talento</p>
 </template>
 

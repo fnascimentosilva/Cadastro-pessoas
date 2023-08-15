@@ -1,5 +1,6 @@
 <template>
-  <ul class="menu">
+    <nav>
+        <ul class="menu">
     <router-link to="/">
     <li class="item-menu">
       <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/home.png" alt="home" />
@@ -22,6 +23,7 @@
     </router-link>
   </ul>
   <h1 class="title">Banco de Talentos</h1>
+    </nav>
 </template>
 
 <style scoped>
@@ -53,5 +55,3 @@
   width: 33%;
 }
 </style>
-
-
